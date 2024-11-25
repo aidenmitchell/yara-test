@@ -1,5 +1,4 @@
-rule MALFORMED_OLE_HEADER
-{
+rule MALFORMED_OLE_HEADER {
     meta:
         description = "Detects files starting with PK but not PK\\x03\\x04, while containing PK\\x03\\x04 later in the file."
         author = "Aiden Mitchell"
